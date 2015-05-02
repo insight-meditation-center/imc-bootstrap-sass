@@ -374,7 +374,7 @@ $navbar-padding-vertical:          (($navbar-height - $line-height-computed) / 2
 $navbar-collapse-max-height:       340px !default;
 
 $navbar-default-color:             #777 !default;
-$navbar-default-bg:                #eee8d5 !default;
+$navbar-default-bg:                $background-accent-color !default;
 $navbar-default-border:            #b58900 !default;
 
 // Navbar links
@@ -496,7 +496,7 @@ $pager-disabled-color:                 $pagination-disabled-color !default;
 
 $jumbotron-padding:              30px !default;
 $jumbotron-color:                inherit !default;
-$jumbotron-bg:                   $base3 !default;
+$jumbotron-bg:                   $background-color !default;
 $jumbotron-heading-color:        inherit !default;
 $jumbotron-font-size:            ceil(($font-size-base * 1.5)) !default;
 
