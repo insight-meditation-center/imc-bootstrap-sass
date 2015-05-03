@@ -31,3 +31,8 @@ ul {
 .jumbotron .pic-wrapper {
   overflow: hidden;
 }
+
+iframe, object, embed {
+  max-width: 100%;
+  width: 100%;
+}
