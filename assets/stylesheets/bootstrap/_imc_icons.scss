@@ -13,10 +13,7 @@
   font-family: 'IMC Glyphs';
 }
 
-.imcglyph-buddha                {
-  &:before { content: "\e600"; }
-  margin-right: 0.25em;
-}
+.imcglyph-buddha { &:before { content: "\e600"; } }
 
 .jumbotron h1 {
   border-bottom: 4px #b58900 solid;
