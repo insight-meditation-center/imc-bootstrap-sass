@@ -15,16 +15,3 @@
 
 .imcglyph-buddha { &:before { content: "\e600"; } }
 
-.jumbotron h1 {
-  border-bottom: 4px #b58900 solid;
-  padding-bottom: 10px;
-}
-
-h3 {
-  border-bottom: 2px #2aa198 solid;
-  padding-bottom: 6px;
-
-  .jumbotron & {
-    border-bottom: 0;
-  }
-}

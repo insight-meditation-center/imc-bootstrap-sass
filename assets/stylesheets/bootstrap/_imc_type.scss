@@ -36,3 +36,22 @@ iframe, object, embed {
   max-width: 100%;
   width: 100%;
 }
+
+footer.imc-footer {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  margin-top: 100px;
+  color: $gray-light;
+  text-align: center;
+  border-top: 1px solid #e5e5e5;
+}
+
+.jumbotron h1 {
+  border-bottom: 4px #b58900 solid;
+  padding-bottom: 10px;
+}
+
+h3.section-header {
+  border-bottom: 2px #2aa198 solid;
+  padding-bottom: 6px;
+}
