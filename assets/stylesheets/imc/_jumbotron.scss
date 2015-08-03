@@ -1,7 +1,24 @@
 .jumbotron {
   background-image: url('../images/ficus_religiosa.jpg');
-  background-size: 100%;
+  background-position: left top;
+  background-size: 1920px 600px;
+  background-repeat: no-repeat;
+  color: $jumbotron-color;
   font-weight: 300;
   padding-top: 0;
+
+  a {
+    color: inherit;
+  }
+
+  h1 {
+    border-bottom: 4px $imc-accent-color solid;
+    padding-bottom: 10px;
+  }
+
+  .pic-wrapper {
+    overflow: hidden;
+  }
+
 }
 

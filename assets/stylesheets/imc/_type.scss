@@ -28,10 +28,6 @@ ul {
   }
 }
 
-.jumbotron .pic-wrapper {
-  overflow: hidden;
-}
-
 iframe, object, embed {
   max-width: 100%;
   width: 100%;
@@ -46,12 +42,7 @@ footer.imc-footer {
   border-top: 1px solid #e5e5e5;
 }
 
-.jumbotron h1 {
-  border-bottom: 4px #b58900 solid;
-  padding-bottom: 10px;
-}
-
 h3.section-header {
-  border-bottom: 2px #2aa198 solid;
+  border-bottom: 2px $imc-accent-color solid;
   padding-bottom: 6px;
 }
