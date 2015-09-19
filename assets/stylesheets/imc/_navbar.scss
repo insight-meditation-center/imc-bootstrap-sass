@@ -38,4 +38,20 @@
       }
     }
   }
+
+  #search {
+    margin: 4px 0;
+
+    $height: 24px;
+
+    input {
+      height: $height;
+      padding: 2px 8px;
+    }
+
+    i {
+      height: $height;
+      line-height: $height;
+    }
+  }
 }
