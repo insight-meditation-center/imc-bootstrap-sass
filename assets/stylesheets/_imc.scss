@@ -1,11 +1,12 @@
 // IMC-specific
-@import "bootstrap/variables";
 @import "imc/variables";
+@import "bootstrap/variables";
 
 @import "bootstrap/mixins/gradients";
 
 @import "imc/_type";
 
+@import "imc/carousel";
 @import "imc/footer";
 @import "imc/homepage";
 @import "imc/jumbotron";

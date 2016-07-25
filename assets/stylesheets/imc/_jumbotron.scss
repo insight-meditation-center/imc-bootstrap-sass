@@ -1,19 +1,4 @@
-.jumbotron {
-  background-color: transparent;
-  color: $jumbotron-color;
-  padding-top: 0;
-
-  a {
-    color: inherit;
-  }
-
-  h1 {
-    border-bottom: 4px $imc-accent-color solid;
-    padding-bottom: 10px;
-  }
-
-  .pic-wrapper {
-    overflow: hidden;
-  }
+#homepageHero.jumbotron {
+  background-image: url('../images/ficus_religiosa.jpg');
 }
 

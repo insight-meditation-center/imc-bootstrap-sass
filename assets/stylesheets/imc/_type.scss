@@ -14,20 +14,6 @@ ul {
   margin-bottom: 0;
 }
 
-.navbar-brand {
-  @media (min-width: $screen-sm-min) and (max-width: $screen-md-min - 1px) {
-    &:after {
-      content: 'IMC';
-    }
-  }
-
-  @media (max-width: $screen-sm-min - 1px), (min-width: $screen-md-min) {
-    &:after {
-      content: 'Insight Meditation Center';
-    }
-  }
-}
-
 iframe, object, embed {
   max-width: 100%;
   width: 100%;
