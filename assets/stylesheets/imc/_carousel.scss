@@ -1,0 +1,33 @@
+/* Carousel base class */
+.carousel {
+  margin-bottom: 60px;
+}
+/* Since positioning the image, we need to help out the caption */
+.carousel-caption {
+  left: 64%;
+  right: 10%;
+  text-align: left;
+  z-index: 10;
+
+  pre {
+    background: none;
+    border: none;
+    color: #fff;
+    font-family: $font-family-sans-serif;
+  }
+}
+
+/* Declare heights because of positioning of img element */
+.carousel .item {
+  height: 400px;
+  background-color: #777;
+}
+
+.carousel-inner > .item > img {
+  left: -9999px;  /*important */
+  right: -9999px;  /*important */
+  margin: 0 auto;  /*important */
+  max-width: none;  /*important */
+  min-width: 100%;
+  position: absolute;
+}
