@@ -1,6 +1,6 @@
 /* Carousel base class */
 .carousel {
-  margin-bottom: 60px;
+  margin-bottom: $line-height-computed;
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
