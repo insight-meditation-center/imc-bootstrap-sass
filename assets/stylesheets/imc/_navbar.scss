@@ -8,7 +8,7 @@
 		box-shadow: none;
 
 		.navbar-brand {
-			font-family: 'Hind', sans-serif;
+			font-family: $navbar-brand-font;
 			font-size: $font-size-h2;
 			font-weight: bold;
 		}

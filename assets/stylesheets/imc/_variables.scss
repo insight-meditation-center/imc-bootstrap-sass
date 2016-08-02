@@ -1,6 +1,6 @@
-/*
- * Colors
- */
+//== Colors
+//
+
 $solarized-base02:           #073642;
 $solarized-base01:           #586e75;
 $solarized-base00:           #657b83;
@@ -21,16 +21,19 @@ $imc-red:                    #c0504d;
 $imc-orange:                 #e36c0a;
 $imc-green:                  #77933c;
 
-$link-color:                 $imc-orange; // Bootstrap override
+$link-color:                 $imc-green; // Bootstrap override
 
-$navbar-default-brand-color: $imc-red; // Bootstrap override
-$navbar-top-link-color:      $imc-orange;
+$navbar-default-brand-color: $imc-green; // Bootstrap override
+$navbar-top-link-color:      $imc-green;
 $navbar-main-bg-color:       $imc-green;
 $navbar-main-color:          #fff;
-/*
- * End colors
- */
 
 
-$font-family-sans-serif: "Lucida Sans Unicode", sans-serif; // Bootstrap override
+//== Typography
+//
+$font-family-sans-serif:     "Lucida Sans Unicode", sans-serif; // Bootstrap override
+$navbar-brand-font:          "Arial", sans-serif;
+
+$font-size-base:             16px; // Bootstrap override
+$font-size-navbar-brand:     ceil(($font-size-base * 2.5)) // ~40px
 

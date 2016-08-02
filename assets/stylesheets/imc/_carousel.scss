@@ -1,33 +1,49 @@
 /* Carousel base class */
 .carousel {
   margin-bottom: $line-height-computed;
-}
-/* Since positioning the image, we need to help out the caption */
-.carousel-caption {
-  left: 64%;
-  right: 10%;
-  text-align: left;
-  z-index: 10;
 
-  pre {
-    background: none;
+  .carousel-caption {
+    background-color: rgba($imc-green, 0.6);
     border: none;
+    bottom: 25%;
     color: #fff;
     font-family: $font-family-sans-serif;
+    font-size: $font-size-large;
+    font-style: italic;
+    left: 57%;
+    padding: floor(($font-size-large * $line-height-large));
+    right: auto;
+    text-align: left;
+    z-index: 10;
+
+    pre {
+      background-color: transparent;
+      border: none;
+      color: inherit;
+      font-size: inherit;
+      margin: 0;
+      padding: 0;
+    }
+
+    b {
+      display: block;
+      margin-top: $line-height-computed;
+    }
+  }
+
+  /* Declare heights because of positioning of img element */
+  .item {
+    height: 400px;
+    background-color: #777;
+  }
+
+  .carousel-inner > .item > img {
+    left: -9999px;  /*important */
+    right: -9999px;  /*important */
+    margin: 0 auto;  /*important */
+    max-width: none;  /*important */
+    min-width: 100%;
+    position: absolute;
   }
 }
 
-/* Declare heights because of positioning of img element */
-.carousel .item {
-  height: 400px;
-  background-color: #777;
-}
-
-.carousel-inner > .item > img {
-  left: -9999px;  /*important */
-  right: -9999px;  /*important */
-  margin: 0 auto;  /*important */
-  max-width: none;  /*important */
-  min-width: 100%;
-  position: absolute;
-}
