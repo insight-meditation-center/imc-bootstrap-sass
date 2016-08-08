@@ -9,7 +9,6 @@
     color: #fff;
     font-family: $font-family-sans-serif;
     font-size: $font-size-large;
-    font-style: italic;
     left: 57%;
     padding: floor(($font-size-large * $line-height-large));
     right: auto;
@@ -20,7 +19,9 @@
       background-color: transparent;
       border: none;
       color: inherit;
+      font-family: inherit;
       font-size: inherit;
+      font-style: italic;
       margin: 0;
       padding: 0;
     }

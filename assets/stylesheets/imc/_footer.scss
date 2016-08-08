@@ -1,6 +1,19 @@
 #footer {
-  background-color: $solarized-base02;
-  color: $solarized-base1;
+  background-color: $imc-light-green;
+  color: $gray-base;
   margin-top: $line-height-computed;
   padding: $line-height-computed * 2 0 $line-height-computed * 2 0;
+
+  svg {
+    height: $font-size-base * 2;
+    width:  $font-size-base * 2;
+
+    * {
+      stroke: $solarized-base1;
+    }
+
+    #facebook {
+      fill: $solarized-base1;
+    }
+  }
 }
