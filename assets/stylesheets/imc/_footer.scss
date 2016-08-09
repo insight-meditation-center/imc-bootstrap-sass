@@ -6,14 +6,15 @@
 
   svg {
     height: $font-size-base * 2;
+    vertical-align: sub;
     width:  $font-size-base * 2;
 
     * {
-      stroke: $solarized-base1;
+      stroke: $gray-base;
     }
 
     #facebook {
-      fill: $solarized-base1;
+      fill: $gray-base;
     }
   }
 }
