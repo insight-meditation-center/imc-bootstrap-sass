@@ -1,0 +1,15 @@
+.sidebar {
+  margin: $line-height-computed $navbar-padding-horizontal $line-height-computed 0;
+
+  // .affix makes position: fixed, so
+  // we remove the top margin and set
+  // top to the same value.
+  &.affix {
+    margin-top: 0;
+    top: $line-height-computed;
+  }
+
+  &.affix-bottom {
+    position: relative;
+  }
+}
