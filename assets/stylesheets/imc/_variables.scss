@@ -20,6 +20,7 @@ $imc-accent-color:           #859900;
 $imc-red:                    #c0504d;
 $imc-orange:                 #e36c0a;
 $imc-green:                  #77933c;
+$imc-green-light:          lighten($imc-green, 10%); // #94b64c
 $imc-light-green:            #f2f7e7;
 
 $link-color:                 $imc-green; // Bootstrap override
@@ -29,6 +30,10 @@ $navbar-top-link-color:      $imc-green;
 $navbar-main-bg-color:       $imc-green;
 $navbar-main-color:          #fff;
 
+
+//== Navs
+//
+$nav-link-hover-bg:          $imc-green-light;
 
 //== Typography
 //
