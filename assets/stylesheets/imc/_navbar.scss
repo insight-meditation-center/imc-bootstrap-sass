@@ -34,5 +34,18 @@
   form[role="search"] input {
     width: 175px;
   }
+
+  svg {
+    height: $icon-size-base;
+    left: 2px;
+    position: relative;
+    top: -1px;
+    vertical-align: top;
+    width: $icon-size-base;
+
+    line, circle {
+      stroke: $navbar-top-link-color;
+    }
+  }
 }
 
