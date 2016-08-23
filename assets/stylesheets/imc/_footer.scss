@@ -3,18 +3,4 @@
   color: $gray-base;
   margin-top: $line-height-computed;
   padding: $line-height-computed * 2 0 $line-height-computed * 2 0;
-
-  svg {
-    height: $font-size-base * 2;
-    vertical-align: sub;
-    width:  $font-size-base * 2;
-
-    * {
-      stroke: $gray-base;
-    }
-
-    #facebook {
-      fill: $gray-base;
-    }
-  }
 }
