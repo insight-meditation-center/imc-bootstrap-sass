@@ -19,8 +19,8 @@ $solarized-green:      			 #859900;
 $imc-accent-color:           #859900;
 $imc-red:                    #c0504d;
 $imc-orange:                 #e36c0a;
-$imc-green:                  #77933c;
-$imc-green-light:          lighten($imc-green, 10%); // #94b64c
+$imc-green:                  #345c0d;
+$imc-green-light:            lighten($imc-green, 10%); // #94b64c
 $imc-light-green:            #f2f7e7;
 
 $link-color:                 $imc-green; // Bootstrap override
@@ -55,3 +55,10 @@ $icon-size-large:            ceil($icon-size-base * 1.272727); // 28px
 //== Sidebar
 //
 $sidebar-vertical-margin:    $line-height-computed * 2;
+
+//== Dropdowns
+//
+//## Dropdown menu container and contents.
+//** Dropdown link text color.
+$dropdown-link-color:        $link-color; // Bootstrap override
+$dropdown-link-hover-color:  darken($dropdown-link-color, 5%); // Bootstrap override
