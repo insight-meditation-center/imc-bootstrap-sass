@@ -1,3 +1,8 @@
+//
+// Typography
+// --------------------------------------------------
+
+
 ul {
   padding-left: 30px;
 
@@ -22,6 +27,13 @@ footer.imc-footer {
   color: $gray-light;
   text-align: center;
   border-top: 1px solid #e5e5e5;
+}
+
+// Headings
+// -------------------------
+
+h1, h3, .h1, .h3 {
+  font-weight: 200;
 }
 
 h3.section-header {
