@@ -25,19 +25,17 @@ $imc-light-green:            #f2f7e7;
 
 $link-color:                 $imc-green; // Bootstrap override
 
-$navbar-default-brand-color: $imc-green; // Bootstrap override
-$navbar-top-link-color:      $imc-green;
-$navbar-main-bg-color:       $imc-green;
-$navbar-main-color:          #fff;
-
-
-//== Navs
-//
-$nav-link-hover-bg:          $imc-green-light;
 
 //== Typography
 //
 $font-size-base:             16px; // Bootstrap override
+
+$font-size-h1:            floor(($font-size-base * 2.6)) !default; // Imported from Bootstrap.
+$font-size-h2:            floor(($font-size-base * 2.15)) !default; // Imported from Bootstrap.
+$font-size-h3:            ceil(($font-size-base * 1.7)) !default; // Imported from Bootstrap.
+$font-size-h4:            ceil(($font-size-base * 1.25)) !default; // Imported from Bootstrap.
+$font-size-h5:            $font-size-base !default;
+$font-size-h6:            ceil(($font-size-base * 0.85)) !default; // Imported from Bootstrap.
 
 //** Unit-less `line-height` for use in components like buttons.
 $line-height-base:           1.428571429 !default; // 22/16; formula copied from Bootstrap
@@ -51,6 +49,21 @@ $font-size-navbar-brand:     ceil(($font-size-base * 2.5)); // ~40px
 
 $icon-size-base:             $line-height-computed;
 $icon-size-large:            ceil($icon-size-base * 1.272727); // 28px
+
+
+//== Navbar
+//
+$navbar-default-brand-color: $imc-green; // Bootstrap override
+$navbar-top-link-color:      $imc-green;
+$navbar-main-bg-color:       $imc-green;
+$navbar-main-color:          #fff;
+
+$navbar-brand-font-size:     $font-size-h2;
+
+
+//== Navs
+//
+$nav-link-hover-bg:          $imc-green-light;
 
 //== Sidebar
 //
