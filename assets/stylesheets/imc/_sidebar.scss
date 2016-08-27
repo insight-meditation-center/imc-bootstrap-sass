@@ -1,12 +1,10 @@
 .sidebar {
   margin: $sidebar-vertical-margin $navbar-padding-horizontal $sidebar-vertical-margin 0;
 
-  // .affix makes position: fixed, so
-  // we remove the top margin and set
-  // top to the same value.
+  // .affix makes position: fixed, so top to the sidebar's top position
+  // relative to the document.
   &.affix {
-    margin-top: 0;
-    top: $sidebar-vertical-margin;
+    top: $header-height;
   }
 
   &.affix-bottom {
