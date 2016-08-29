@@ -100,3 +100,5 @@ $sidebar-vertical-margin:    $line-height-computed * 2;
 //** Dropdown link text color.
 $dropdown-link-color:        $link-color; // Bootstrap override
 $dropdown-link-hover-color:  darken($dropdown-link-color, 5%); // Bootstrap override
+
+$dropdown-link-active-bg:    $imc-green-light; // Bootstrap variable
