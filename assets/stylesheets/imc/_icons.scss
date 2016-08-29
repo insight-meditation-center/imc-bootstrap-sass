@@ -1,5 +1,17 @@
-svg.icon-large {
-  height: $icon-size-large;
-  vertical-align: bottom;
-  width: $icon-size-large;
+svg {
+  &.icon, &.icon-large {
+    vertical-align: bottom;
+  }
+
+  &.icon {
+    height: $icon-size-base;
+    position: relative;
+    top: -4px;
+    width: $icon-size-base;
+  }
+
+  &.icon-large {
+    height: $icon-size-large;
+    width: $icon-size-large;
+  }
 }
