@@ -23,8 +23,8 @@ $imc-green:                  #345c0d;
 $imc-green-light:            lighten($imc-green, 10%); // #4d8913
 $imc-light-green:            #f2f7e7;
 
-$link-color:                 $imc-green; // Bootstrap override
-
+$brand-primary:              $imc-green; // Bootstrap variable
+$link-color:                 $brand-primary; // Bootstrap variable
 
 //== Typography
 //
