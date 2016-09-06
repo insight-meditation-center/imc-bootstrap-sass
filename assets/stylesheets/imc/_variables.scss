@@ -58,10 +58,11 @@ $nav-li-a-height:            ($line-height-computed + $nav-link-padding-vertical
 //== Navbar
 //
 $navbar-default-brand-color: $imc-green; // Bootstrap override
+$navbar-default-bg:          #fcf1e5;
 $navbar-main-bg-color:       $imc-green;
 $navbar-main-color:          #fff;
 
-$navbar-height:              50px; // Bootstrap variable
+$navbar-height:              94px; // Bootstrap variable
 
 //** Navbar Brand
 $navbar-brand-font:             $font-family-sans-serif;
@@ -74,9 +75,7 @@ $navbar-brand-padding-vertical: (($navbar-height - $navbar-brand-font-size)/2);
 //** Website-level navbar.
 $navbar-site-link-color:     $imc-green;
 
-$navbar-margin-bottom:       $line-height-computed; // Bootstrap variable
-$navbar-margin-vertical:     $navbar-margin-bottom;
-$navbar-site-height:         ((2 * $navbar-margin-vertical) + $navbar-brand-font-size + (2 * $navbar-brand-padding-vertical));
+$navbar-margin-bottom:       0; // Bootstrap variable
 
 
 //== Menu Navbar
@@ -88,7 +87,7 @@ $navbar-menu-height:         $nav-li-a-height;
 //
 //## Comprises top portion that is on every page.
 
-$header-height:              ($navbar-site-height + $navbar-menu-height);
+$header-height:              ($navbar-height + $navbar-menu-height);
 
 //== Sidebar
 //
