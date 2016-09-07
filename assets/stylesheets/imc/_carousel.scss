@@ -8,6 +8,7 @@
     font-size: $font-size-large;
     font-weight: lighter;
     text-align: left;
+    text-decoration: none;
     text-shadow: none;
 
     &.carousel-caption-left {
@@ -33,6 +34,7 @@
     span {
       display: block;
       margin-top: $line-height-computed;
+      text-align: right;
     }
   }
 
