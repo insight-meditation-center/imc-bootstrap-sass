@@ -1,0 +1,16 @@
+.jumbotron#learnmore {
+  margin-bottom: $jumbotron-margin-bottom;
+
+  .row {
+    margin-bottom: 0;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  &:focus {
+    background-color: $jumbotron-bg-focus;
+    outline: none;
+  }
+}

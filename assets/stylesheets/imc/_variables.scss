@@ -10,6 +10,9 @@ $brand-primary:              $imc-green; // Bootstrap variable
 $link-color:                 $brand-primary; // Bootstrap variable
 
 $gray-base:              #000; // Bootstrap variable
+$gray-lighterer:         lighten($gray-base, 97%); // #f7f7f7
+
+$blue-lighterer:         #e5f5f9;
 
 //== Typography
 //
@@ -86,6 +89,14 @@ $dropdown-link-color:        $link-color; // Bootstrap override
 $dropdown-link-hover-color:  darken($dropdown-link-color, 5%); // Bootstrap override
 
 $dropdown-link-active-bg:    $imc-green-light; // Bootstrap variable
+
+//== Jumbotron
+//
+//##
+
+$jumbotron-bg:                   $gray-lighterer; // Bootstrap variable
+$jumbotron-bg-focus:             $blue-lighterer;
+$jumbotron-margin-bottom:        0;
 
 //== Footer
 //
