@@ -4,10 +4,12 @@
 $imc-accent-color:           #859900;
 $imc-green:                  #345c0d;
 $imc-green-light:            lighten($imc-green, 10%); // #4d8913
-$imc-light-green:            #f2f7e7;
+$imc-green-lighter:          #f2f7e7;
 
 $brand-primary:              $imc-green; // Bootstrap variable
 $link-color:                 $brand-primary; // Bootstrap variable
+
+$gray-base:              #000; // Bootstrap variable
 
 //== Typography
 //
@@ -41,7 +43,7 @@ $nav-li-a-height:            ($line-height-computed + $nav-link-padding-vertical
 //== Navbar
 //
 $navbar-default-brand-color: $imc-green; // Bootstrap override
-$navbar-default-bg:          $imc-light-green;
+$navbar-default-bg:          $imc-green-lighter;
 $navbar-main-bg-color:       $imc-green;
 $navbar-main-color:          #fff;
 
@@ -84,3 +86,10 @@ $dropdown-link-color:        $link-color; // Bootstrap override
 $dropdown-link-hover-color:  darken($dropdown-link-color, 5%); // Bootstrap override
 
 $dropdown-link-active-bg:    $imc-green-light; // Bootstrap variable
+
+//== Footer
+//
+//##
+
+$footer-bg:       $imc-green-lighter;
+$footer-color:    $gray-base;
