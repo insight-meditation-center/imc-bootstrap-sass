@@ -13,10 +13,9 @@
       padding-bottom: $navbar-brand-padding-vertical;
       padding-top: $navbar-brand-padding-vertical;
 
-      svg {
+      img {
+        display: inline;
         height: $navbar-brand-font-size;
-        stroke: $imc-green;
-        width: $navbar-brand-font-size;
         vertical-align: text-top;
       }
 		}
