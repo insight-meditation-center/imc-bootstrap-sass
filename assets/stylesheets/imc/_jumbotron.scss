@@ -1,17 +1,23 @@
-.jumbotron#learnmore {
-  background-color: inherit;
-  margin-bottom: $jumbotron-margin-bottom;
+.jumbotron {
+  &#learnmore {
+    background-color: inherit;
+    margin-bottom: $jumbotron-margin-bottom;
 
-  .row {
-    margin-bottom: 0;
+    .row {
+      margin-bottom: 0;
+    }
+
+    p {
+      margin-bottom: 0;
+    }
+
+    &:focus {
+      background-color: $jumbotron-bg-focus;
+      outline: none;
+    }
   }
 
-  p {
-    margin-bottom: 0;
-  }
-
-  &:focus {
-    background-color: $jumbotron-bg-focus;
-    outline: none;
+  &.hero {
+    padding: 0;
   }
 }
