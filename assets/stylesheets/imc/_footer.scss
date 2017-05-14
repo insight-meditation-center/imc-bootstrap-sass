@@ -1,9 +1,4 @@
 #footer {
-  background-color: $footer-bg;
   color: $footer-color;
-  padding: $line-height-computed * 2 0 $line-height-computed * 2 0;
-
-  h4.widget-title {
-    text-decoration: underline;
-  }
+  padding: $line-height-computed * 2 0 0 0;
 }

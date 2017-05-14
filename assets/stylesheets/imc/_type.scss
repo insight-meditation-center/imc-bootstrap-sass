@@ -41,7 +41,14 @@ h3.section-header {
   padding-bottom: 6px;
 }
 
-h4 a.small {
+h1 a.small, h2 a.small, h3 a.small, h4 a.small, h5 a.small, h6 a.small, .h1 a.small, .h2 a.small, .h3 a.small, .h4 a.small, .h5 a.small, .h6 a.small {
   color: $link-color;
+}
+
+h4 a.small {
   margin-left: 6px;
+}
+
+h1.no-top-margin, h2.no-top-margin, h3.no-top-margin, h4.no-top-margin, h5.no-top-margin, h6.no-top-margin, .h1.no-top-margin, .h2.no-top-margin, .h3.no-top-margin, .h4.no-top-margin, .h5.no-top-margin, .h6.no-top-margin {
+  margin-top: 0;
 }
