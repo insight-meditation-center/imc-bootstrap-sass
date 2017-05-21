@@ -40,5 +40,14 @@
   form[role="search"] input {
     width: 175px;
   }
-}
 
+  @media (min-width: $screen-sm-min) {
+    .dropdown:hover .dropdown-menu {
+      display: block; margin-top: 0; // remove the gap so it doesn't close
+    }
+
+    .dropdown-menu {
+      margin-top: 0; // Without this, the menu jumps a bit when a clicks pins the menu and the mouse stops hovering
+    }
+  }
+}
